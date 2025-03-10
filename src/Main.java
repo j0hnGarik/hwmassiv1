@@ -33,41 +33,22 @@ public class Main {
                                 if (r < boll.length - 1) {
                                     System.out.print(", ");
                                     System.out.println("задание 3");
-                                    for (int i3 = box.length - 1; i3 >= 0; i3--) {
-                                        if (i3 > 0) {
-                                            System.out.print(box[i3] + ", ");
-                                        } else {
-                                            System.out.print(box[i3]);
-                                        }
-                                    }
-                                    System.out.println();
-                                    for (int i3 = klop.length - 1; i3 >= 0; i3--) {
-                                        if (i3 > 0) {
-                                            System.out.print(klop[i3] + ", ");
-                                        } else {
-                                            System.out.print(klop[i3]);
-                                        }
-                                    }
-                                    System.out.println();
-                                    for (int i3 = boll.length - 1; i3 >= 0; i3--) {
-                                        if (i3 > 0) {
-                                            System.out.print(boll[i3] + ", ");
-                                        } else {
-                                            System.out.print(boll[i3]);
+                                    int[] arr = {1, 2, 3};
+                                    for (int e = 0; e < arr.length; e++) {
+                                        System.out.print(arr[e]);
+                                        if (e < arr.length - 1) {
+                                            System.out.print(", ");
                                         }
                                     }
                                     System.out.println();
                                     System.out.println("задание 4");
-                                    int[] boxx = {1, 2, 3};
-
-                                    for (int i4 = 0; i4 < boxx.length; i4++) {
-                                        if (boxx[i4] % 2 != 0) {
-                                            boxx[i4] += 1;
+                                    int[] arr1 = {1, 2, 3};
+                                    for (int p = arr.length - 1; p >= 0; p--) {
+                                        System.out.print(arr1[p]);
+                                        if (p > 0) {
+                                            System.out.print(", ");
                                         }
                                     }
-
-                                    System.out.println(Arrays.toString(boxx));
-
 
 
                                 }
@@ -75,4 +56,8 @@ public class Main {
                         }
                     }
 
-                }}}}}
+                }
+            }
+        }
+    }
+}
